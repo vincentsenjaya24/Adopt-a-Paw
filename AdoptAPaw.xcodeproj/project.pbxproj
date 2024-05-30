@@ -8,19 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		24B0C2CE2C03CEDC00439B6E /* AdoptAPawApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B0C2CD2C03CEDC00439B6E /* AdoptAPawApp.swift */; };
-		24B0C2D02C03CEDC00439B6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B0C2CF2C03CEDC00439B6E /* ContentView.swift */; };
-		24B0C2D22C03CEDC00439B6E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B0C2D12C03CEDC00439B6E /* Item.swift */; };
 		24B0C2D42C03CEDD00439B6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24B0C2D32C03CEDD00439B6E /* Assets.xcassets */; };
 		24B0C2D72C03CEDD00439B6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24B0C2D62C03CEDD00439B6E /* Preview Assets.xcassets */; };
+		24B1CC7A2C03D085007E59BC /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B1CC782C03D085007E59BC /* Coordinator.swift */; };
+		24B1CC7B2C03D085007E59BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B1CC792C03D085007E59BC /* AppDelegate.swift */; };
+		24B1CC802C03D09B007E59BC /* EditPetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B1CC7C2C03D09B007E59BC /* EditPetView.swift */; };
+		24B1CC812C03D09B007E59BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B1CC7D2C03D09B007E59BC /* ContentView.swift */; };
+		24B1CC822C03D09B007E59BC /* RealityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B1CC7E2C03D09B007E59BC /* RealityView.swift */; };
+		24B1CC832C03D09B007E59BC /* PetCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B1CC7F2C03D09B007E59BC /* PetCardView.swift */; };
+		24B1CC872C03D0AF007E59BC /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B1CC862C03D0AF007E59BC /* Pet.swift */; };
+		24B1CC902C03D428007E59BC /* Brush Rabbit.reality in Resources */ = {isa = PBXBuildFile; fileRef = 24B1CC8A2C03D427007E59BC /* Brush Rabbit.reality */; };
+		24B1CC912C03D428007E59BC /* Bombay Cat.reality in Resources */ = {isa = PBXBuildFile; fileRef = 24B1CC8B2C03D428007E59BC /* Bombay Cat.reality */; };
+		24B1CC922C03D428007E59BC /* Red Fox.reality in Resources */ = {isa = PBXBuildFile; fileRef = 24B1CC8C2C03D428007E59BC /* Red Fox.reality */; };
+		24B1CC932C03D428007E59BC /* Bulldog.reality in Resources */ = {isa = PBXBuildFile; fileRef = 24B1CC8D2C03D428007E59BC /* Bulldog.reality */; };
+		24B1CC942C03D428007E59BC /* Dobermann.reality in Resources */ = {isa = PBXBuildFile; fileRef = 24B1CC8E2C03D428007E59BC /* Dobermann.reality */; };
+		24B1CC952C03D428007E59BC /* Shiba Inu.reality in Resources */ = {isa = PBXBuildFile; fileRef = 24B1CC8F2C03D428007E59BC /* Shiba Inu.reality */; };
+		24B1CC972C03D4FB007E59BC /* PetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B1CC962C03D4FB007E59BC /* PetViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		24B0C2CA2C03CEDC00439B6E /* AdoptAPaw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdoptAPaw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24B0C2CD2C03CEDC00439B6E /* AdoptAPawApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdoptAPawApp.swift; sourceTree = "<group>"; };
-		24B0C2CF2C03CEDC00439B6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		24B0C2D12C03CEDC00439B6E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		24B0C2D32C03CEDD00439B6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24B0C2D62C03CEDD00439B6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		24B1CC782C03D085007E59BC /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		24B1CC792C03D085007E59BC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24B1CC7C2C03D09B007E59BC /* EditPetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditPetView.swift; sourceTree = "<group>"; };
+		24B1CC7D2C03D09B007E59BC /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		24B1CC7E2C03D09B007E59BC /* RealityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealityView.swift; sourceTree = "<group>"; };
+		24B1CC7F2C03D09B007E59BC /* PetCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetCardView.swift; sourceTree = "<group>"; };
+		24B1CC862C03D0AF007E59BC /* Pet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		24B1CC8A2C03D427007E59BC /* Brush Rabbit.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Brush Rabbit.reality"; sourceTree = "<group>"; };
+		24B1CC8B2C03D428007E59BC /* Bombay Cat.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bombay Cat.reality"; sourceTree = "<group>"; };
+		24B1CC8C2C03D428007E59BC /* Red Fox.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Red Fox.reality"; sourceTree = "<group>"; };
+		24B1CC8D2C03D428007E59BC /* Bulldog.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bulldog.reality; sourceTree = "<group>"; };
+		24B1CC8E2C03D428007E59BC /* Dobermann.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dobermann.reality; sourceTree = "<group>"; };
+		24B1CC8F2C03D428007E59BC /* Shiba Inu.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Shiba Inu.reality"; sourceTree = "<group>"; };
+		24B1CC962C03D4FB007E59BC /* PetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetViewModel.swift; sourceTree = "<group>"; };
+		24B1CC982C03D8E2007E59BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +59,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24A088732C0481C800418865 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				24B1CC962C03D4FB007E59BC /* PetViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		24A088742C0481DE00418865 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				24B1CC7D2C03D09B007E59BC /* ContentView.swift */,
+				24B1CC7C2C03D09B007E59BC /* EditPetView.swift */,
+				24B1CC7F2C03D09B007E59BC /* PetCardView.swift */,
+				24B1CC7E2C03D09B007E59BC /* RealityView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		24A088752C0481F200418865 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				24B1CC862C03D0AF007E59BC /* Pet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		24A088762C0481FD00418865 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				24B1CC792C03D085007E59BC /* AppDelegate.swift */,
+				24B1CC782C03D085007E59BC /* Coordinator.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		24A088772C04821100418865 /* Reality Assets */ = {
+			isa = PBXGroup;
+			children = (
+				24B1CC8B2C03D428007E59BC /* Bombay Cat.reality */,
+				24B1CC8A2C03D427007E59BC /* Brush Rabbit.reality */,
+				24B1CC8D2C03D428007E59BC /* Bulldog.reality */,
+				24B1CC8E2C03D428007E59BC /* Dobermann.reality */,
+				24B1CC8C2C03D428007E59BC /* Red Fox.reality */,
+				24B1CC8F2C03D428007E59BC /* Shiba Inu.reality */,
+			);
+			path = "Reality Assets";
+			sourceTree = "<group>";
+		};
 		24B0C2C12C03CEDC00439B6E = {
 			isa = PBXGroup;
 			children = (
@@ -53,9 +127,13 @@
 		24B0C2CC2C03CEDC00439B6E /* AdoptAPaw */ = {
 			isa = PBXGroup;
 			children = (
+				24A088772C04821100418865 /* Reality Assets */,
+				24A088762C0481FD00418865 /* Helper */,
+				24A088752C0481F200418865 /* Model */,
+				24A088742C0481DE00418865 /* View */,
+				24A088732C0481C800418865 /* ViewModel */,
+				24B1CC982C03D8E2007E59BC /* Info.plist */,
 				24B0C2CD2C03CEDC00439B6E /* AdoptAPawApp.swift */,
-				24B0C2CF2C03CEDC00439B6E /* ContentView.swift */,
-				24B0C2D12C03CEDC00439B6E /* Item.swift */,
 				24B0C2D32C03CEDD00439B6E /* Assets.xcassets */,
 				24B0C2D52C03CEDD00439B6E /* Preview Content */,
 			);
@@ -128,8 +206,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24B1CC912C03D428007E59BC /* Bombay Cat.reality in Resources */,
 				24B0C2D72C03CEDD00439B6E /* Preview Assets.xcassets in Resources */,
+				24B1CC932C03D428007E59BC /* Bulldog.reality in Resources */,
+				24B1CC922C03D428007E59BC /* Red Fox.reality in Resources */,
+				24B1CC952C03D428007E59BC /* Shiba Inu.reality in Resources */,
+				24B1CC902C03D428007E59BC /* Brush Rabbit.reality in Resources */,
 				24B0C2D42C03CEDD00439B6E /* Assets.xcassets in Resources */,
+				24B1CC942C03D428007E59BC /* Dobermann.reality in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,8 +224,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24B0C2D02C03CEDC00439B6E /* ContentView.swift in Sources */,
-				24B0C2D22C03CEDC00439B6E /* Item.swift in Sources */,
+				24B1CC972C03D4FB007E59BC /* PetViewModel.swift in Sources */,
+				24B1CC7B2C03D085007E59BC /* AppDelegate.swift in Sources */,
+				24B1CC822C03D09B007E59BC /* RealityView.swift in Sources */,
+				24B1CC872C03D0AF007E59BC /* Pet.swift in Sources */,
+				24B1CC812C03D09B007E59BC /* ContentView.swift in Sources */,
+				24B1CC7A2C03D085007E59BC /* Coordinator.swift in Sources */,
+				24B1CC802C03D09B007E59BC /* EditPetView.swift in Sources */,
+				24B1CC832C03D09B007E59BC /* PetCardView.swift in Sources */,
 				24B0C2CE2C03CEDC00439B6E /* AdoptAPawApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +369,7 @@
 				DEVELOPMENT_TEAM = KVM8YR8J8U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdoptAPaw/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -308,6 +399,7 @@
 				DEVELOPMENT_TEAM = KVM8YR8J8U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdoptAPaw/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
